@@ -4,7 +4,34 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>Base Sync</Title>
+    <Authors>AadiSoft</Authors>
+    <Description>Syncing Offline and Online Databases</Description>
+    <PackageProjectUrl>https://aadi.vercel.app/</PackageProjectUrl>
+    <PackageIcon>a.png</PackageIcon>
+    <RepositoryUrl>https://github.com/aadipoddar/BaseSync</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Database;Sync;Bulk Insert;Bulk Update;</PackageTags>
+    <PackageReleaseNotes>First release functional and fast merging with Bulk update and insert</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Copyright>Built with ❤️ by AadiSoft</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\a.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
